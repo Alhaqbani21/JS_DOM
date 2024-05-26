@@ -1,0 +1,15 @@
+.paragraphStyle {
+  background-color: green;
+  color: yellow;
+}
+
+.listStyle {
+  color: purple;
+  display: inline-flex;
+  border: 1px solid black;
+}
+
+.tableStyle {
+  color: purple;
+  border: 1px solid black;
+}
