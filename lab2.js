@@ -8,7 +8,10 @@ setInterval(() => {
   let positiony = Math.random() * 100;
   tringle.style.left = `${positionx}px`;
   tringle.style.bottom = `${positiony}px`;
-  tringle.style.backgroundColor = colors[Math.round(Math.random() * 6 * 1) / 1];
+  tringle.style.right = `${positionx}px`;
+  tringle.style.top = `${positiony}px`;
+  tringle.style.backgroundColor =
+    '#' + (((1 << 24) * Math.random()) | 0).toString(16).padStart(6, '0');
   tringle.style.width = `${Math.random() * 200}px`;
   tringle.style.height = `${Math.random() * 200}px`;
   tringle.style.opacity = Math.random();
