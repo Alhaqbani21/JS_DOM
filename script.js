@@ -56,3 +56,5 @@ for (let i = 0; i < 2; i++) {
   trTag.appendChild(tdTag3);
   tableTag.appendChild(trTag);
 }
+
+// lab 2
